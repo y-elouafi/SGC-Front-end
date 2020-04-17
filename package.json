@@ -1,0 +1,69 @@
+{
+  "name": "sgc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "b-sidebar": "^1.2.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.15",
+    "jquery": "^3.3.1",
+    "js-beautify": "^1.6.14",
+    "js-cookie": "^2.2.0",
+    "laravel-vue-pagination": "^2.3.0",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-loader": "^15.7.0",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.2",
+    "vue-sidebar-menu": "^3.6.2",
+    "vue-tables-2": "^1.4.70",
+    "vuex": "^3.1.0",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass": "^1.23.0-module.beta.1",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^0.23.1",
+    "vue-plugin-load-script": "^1.2.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
